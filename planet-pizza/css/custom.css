@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* General/Type */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3a3a;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 800;
+    /*transform: rotate(-90deg);*/
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: #d9272e;
+    font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+    color: #b0343d;
+    font-weight: bold;
+}
+
+/* Header */
+
+.header {
+    background-color: #d9272e;
+    color: #f3e4b2;
+    margin: 2%;
+    padding: 15px;
+}
+
+/* Navbar */
+
+.pipe {
+    font-weight: 800;
+    color: #c1c1c1;
+}
+
+.log-in {
+    background-color: #ff9012;
+    color: #f3e4b2 !important;
+}
+
+
+/* Palettes */
+
+.palette {
+    width: 15%;
+    height: 120px;
+}
+
+.square1 {
+    background-color: #d9272e;
+    padding: 5px;
+    width: 120px;
+    height: 60px;
+}
+
+.square2 {
+    background-color: #ff9012;
+    padding: 5px;
+    width: 120px;
+    height: 60px;
+}
+
+.square3 {
+    background-color: #f3e4b2;
+    padding: 5px;
+    width: 120px;
+    height: 60px;
+}
+
+.square4 {
+    background-color: #b0343d;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.square5 {
+    background-color: #bc7229;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.square6 {
+    background-color: #3a3a3a;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.square7 {
+    background-color: #c1c1c1;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+
+/* Typography */
+
+.montserrat-example {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.block-quote {
+    background-color: #b0343d;
+    color: #f3e4b2;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    box-shadow: -8px 8px #c1c1c1;
+    width: 75%;
+
+}
+
+
+/* Button */
+
+.btn-1 {
+    background-color: #d9272e;
+    color: #f3e4b2;
+    padding: 0 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+    box-shadow: -3px 3px #c1c1c1;
+}
+
+.btn-2 {
+    background-color: #ff9012;
+    padding: 0 10px 0;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.btn-3 {
+    font-size: 18px;
+    padding: 0 10px 0;
+}
+
+
+/* List */
+
+/* Image Overlay */
+.imagebox {
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.imagebox img {
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+.imagebox .imagebox-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+}
+
+.imagebox:hover img {
+    opacity: 0.7;
+}
+
+.imagebox:hover .imagebox-desc {
+    padding-bottom: 10%;
+}
+
+
+
+/* Form */
+
+form {
+    width: 66%;
+}
+
+
+/* Footer */
+
+footer a {
+    color: #3a3a3a;
+}

@@ -4,9 +4,9 @@
 
 html, body {
     height: 100%;
-    width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #3a3a3a;
+    background-color: #d9272e;
 }
 
 h1 {
@@ -55,13 +55,13 @@ img {
 
 /* unvisited link */
 a:link {
-    color: #d9272e;
+    color: #f3e4b2;
     font-weight: bold;
 }
 
 /* visited link */
 a:visited {
-    color: #b0343d;
+    color: #f3e4b2;
     font-weight: bold;
 }
 
@@ -70,22 +70,28 @@ a:visited {
 .header {
     background-color: #d9272e;
     color: #f3e4b2;
-    margin: 2%;
     padding: 15px;
 }
 
 /* Navbar */
 
-.pipe {
-    font-weight: 800;
-    color: #c1c1c1;
-}
+/*#nav a:link {*/
+    /*color: #f3e4b2;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*#nav a:visited {*/
+    /*color: #f3e4b2;*/
+    /*font-weight: bold;*/
+/*}*/
 
 .log-in {
     background-color: #ff9012;
-    color: #f3e4b2 !important;
 }
 
+.dropdown-toggle {
+    background-color: #3a3a3a;
+}
 
 /* Palettes */
 
@@ -225,6 +231,27 @@ a:visited {
 }
 
 
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/red-mountains.jpg");
+
+    height: 90%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #f3e4b2;
+    /*padding: 25px;*/
+}
+
 
 /* Form */
 
@@ -235,6 +262,13 @@ form {
 
 /* Footer */
 
-footer a {
-    color: #3a3a3a;
+footer {
+    background-color: #3a3a3a;
+    color: #c1c1c1;
+    height: 80px;
+    padding: 10px;
+}
+
+#footer a {
+    color: #c1c1c1;
 }

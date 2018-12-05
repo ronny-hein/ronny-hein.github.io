@@ -17,11 +17,13 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 800;
+    color: #f3e4b2;
 }
 
 h3 {
     font-size: 28px;
     font-weight: 800;
+    color: #f3e4b2;
 }
 
 h4 {
@@ -183,9 +185,10 @@ a:visited {
 
 .btn-2 {
     background-color: #ff9012;
-    padding: 0 10px 0;
-    font-size: 16px;
+    padding: auto;
+    font-size: 20px;
     font-weight: 800;
+    box-shadow: -3px 3px #6e6e6e;
 }
 
 .btn-3 {
@@ -265,10 +268,6 @@ form {
 footer {
     background-color: #3a3a3a;
     color: #c1c1c1;
-    height: 80px;
+    height: 120px;
     padding: 10px;
-}
-
-#footer a {
-    color: #c1c1c1;
 }

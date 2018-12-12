@@ -11,13 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
 
+    <link rel="shortcut icon" type="image/png" href="media/favicon/favicon-16px.png"/>
     <title>Pizza Planet</title>
 </head>
 <body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #3a3a3a;">
-    <a class="navbar-brand" href="#"><img src="media/logo-horizontal.png" height="50" alt="logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="media/logo-horizontal.png" height="50" alt="logo"></a>
 
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
@@ -26,32 +27,31 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">LOCATIONS</a>
+                <a class="nav-link" href="#location">LOCATIONS</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Pizza</a>
-                    <a class="dropdown-item" href="#">Calzone</a>
-                    <a class="dropdown-item" href="#">Sides</a>
-                    <a class="dropdown-item" href="#">Salad</a>
-                    <a class="dropdown-item" href="#">Dessert</a>
-                    <a class="dropdown-item" href="#">Drinks</a>
+                <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
+                <div class="dropdown-menu" style="background-color: #3a3a3a">
+                    <a class="dropdown-item" href="menu.html#pizza">Pizza</a>
+                    <a class="dropdown-item" href="menu.html#pizza">Calzone</a>
+                    <a class="dropdown-item" href="menu.html#salads">Salad</a>
+                    <a class="dropdown-item" href="menu.html#dessert">Dessert</a>
+                    <a class="dropdown-item" href="menu.html#drinks">Drinks</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Specials</a>
+                    <a class="dropdown-item" href="construction.html">Specials</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">ORDER ONLINE</a>
+                <a class="nav-link" href="construction.html">ORDER ONLINE</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link log-in" href="#">LOG IN</a>
+                <a class="nav-link log-in" href="login.html">LOG IN</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CART <i class="fas fa-shopping-cart"></i></a>
+                <a class="nav-link" href="construction.html">CART <i class="fas fa-shopping-cart"></i></a>
             </li>
         </ul>
     </div>
@@ -78,8 +78,7 @@
 
 <div class="container-fluid" style="max-width: 950px">
 
-    <h2 class="text-center my-5">HOW TO ORDER</h2>
-
+    <h2 class="text-center mt-5">HOW TO ORDER</h2>
     <div class="row">
         <div class="col-xs-12 col-md-6 text-center my-4">
             <img src="media/choose.svg" alt="Child Pointing" width="325">
@@ -123,7 +122,7 @@
             </p>
         </div>
     </div>
-
+    <a id="location"></a>
     <div class="text-center mt-4 mb-5">
         <img src="media/icons/point3.svg" alt="Arrow Pointing Down" width="300">
     </div>
@@ -145,7 +144,7 @@
                     </p>
                 </div>
                 <div class="text-center mx-auto mb-5">
-                    <a class="btn btn-2" href="#" style="width: 150px; height:40px">Learn More</a>
+                    <a class="btn btn-2" href="construction.html" style="width: 150px; height:40px">Learn More</a>
                 </div>
             </div>
 
@@ -160,7 +159,7 @@
                     </p>
                 </div>
                 <div class="text-center mx-auto mb-5">
-                    <a class="btn btn-2" href="#" style="width: 150px; height:40px">Learn More</a>
+                    <a class="btn btn-2" href="construction.html" style="width: 150px; height:40px">Learn More</a>
                 </div>
             </div>
 
@@ -176,7 +175,7 @@
                     </p>
                 </div>
                 <div class="text-center mx-auto mb-5">
-                    <a class="btn btn-2" href="#" style="width: 150px; height:40px">Learn More</a>
+                    <a class="btn btn-2" href="construction.html" style="width: 150px; height:40px">Learn More</a>
                 </div>
             </div>
         </div>
@@ -191,22 +190,22 @@
     <div class="row">
         <div class="col-xs-12 col-md-6 text-center">
             <p class="font-weight-bold" style="font-size: 22px">
-                <a href="#" style="color: #c1c1c1">HELP</a>
+                <a href="construction.html" style="color: #c1c1c1">HELP</a>
                 &nbsp; | &nbsp;
-                <a href="#" style="color: #c1c1c1">CONTACT</a>
+                <a href="construction.html" style="color: #c1c1c1">CONTACT</a>
                 &nbsp; | &nbsp;
-                <a href="#" style="color: #c1c1c1">ABOUT</a>
+                <a href="construction.html" style="color: #c1c1c1">ABOUT</a>
             </p>
         </div>
         <div class="col-xs-6 col-md-3 float-left">
             <p>&copy; 2018 Hein, MCTC WEBI 2023</p>
         </div>
         <div class=" col-xs-6 col-md-3 float-right">
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="construction.html"><i class="fab fa-facebook fa-2x"></i></a>
             &nbsp;
-            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="construction.html"><i class="fab fa-twitter-square fa-2x"></i></a>
             &nbsp;
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="construction.html"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
     </div>
 </footer>
